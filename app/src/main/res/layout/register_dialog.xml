@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Register"
+        android:textSize="25dp"
+        android:id="@+id/dialog_heading"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000000"
+        android:gravity="center"
+
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/relativeLayout"
+        android:layout_marginEnd="53dp" />
+
+    <RelativeLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#03A9F4"
+        android:id="@+id/relativeLayout"
+        android:layout_marginTop="105dp"
+        android:layout_below="@+id/dialog_heading"
+        android:layout_centerHorizontal="true">
+
+
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_register"
+        android:text="@string/register"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="15sp"
+        android:background="#B3E5FC"
+        android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/are_you_sure_you_want_to_register_in_this_course"
+            android:id="@+id/dialog_descreption"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_above="@+id/dialog_register"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:src="@drawable/ic_assignment_black"
+            android:id="@+id/imageView"
+            android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

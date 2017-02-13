@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1083900410765",
+    "firebase_url": "https://course-forum.firebaseio.com",
+    "project_id": "course-forum",
+    "storage_bucket": "course-forum.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1083900410765:android:32f728a1083b9c06",
+        "android_client_info": {
+          "package_name": "com.apps.hari.coursesforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1083900410765-qsd56di2ke4f8oqs7i1m0kk1ktn5ijbd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnYOtu9fAemJegFbNdPI69nCH1bZO5i5M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
